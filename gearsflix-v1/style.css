@@ -1,0 +1,70 @@
+body {
+  font-family: 'Roboto Mono',monospace;
+  text-align:center;
+  background-image: url('https://atorredecontrole.com.br/wp-content/uploads/2019/08/e6ac7a845de29c580a05e7e0c844fb6f176fdf0e.jpg');
+  background-color: #000000;
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+}
+.container {
+  text-align: center;
+  padding: 20px;  
+}
+button , input{
+  margin-top: 1rem;
+  background: linear-gradient(to left, #CF1D18, #CF1D18 38%, #9EE5F2 75%, #9EE5F2 75%);
+  color: #000;
+  font-size: 1rem;
+  font-weight: 700;
+  justify-content: center;
+  border: none;
+  border-radius: 0 15px 0 15px;
+  padding: 10px;
+  cursor: pointer;
+  width: 11rem;
+}
+input{
+  cursor: initial;
+  border-radius: 15px 0 15px 0;
+}
+button{
+  margin-bottom: 2rem;
+}
+.listGames{
+  width: 20rem;
+  margin-top: -14rem;
+  color: #fff;
+  margin-bottom: -8rem;
+}
+.page-title {
+  color: #ffffff;
+  margin: 0 0 5px;
+}
+
+.page-subtitle {
+  color: #ffffff;
+  margin-top: 5px;
+}
+
+.page-logo {
+  width: 200px;
+}
+
+.alura-logo {
+  width: 40px;
+  position: absolute;
+  top: 10px;
+  right:10px;
+}
+
+body > img {
+  margin: 30px 10px;
+}
+span{
+  background: linear-gradient(to left, #CF1D18, #CF1D18 38%, #9EE5F2 75%, #9EE5F2 75%);
+  color: #000;
+  font-size: 1.3rem;
+  font-weight: 700;
+  display: inline-block;
+}
