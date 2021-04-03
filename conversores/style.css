@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 700;
+  color: #000;
+}
+.container{
+  background-color: #ccc;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 50vh 50vh;
+  gap: 0.2rem;
+  grid-template-areas: "anoLuz dolarReal"
+              "libraDolar celsius";
+}
+.title, label, span{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+.title{
+  margin-top: 1rem;
+  font-size: 1.5rem;
+}
+.boxContent{
+  width: 70%;
+  margin-left: 5rem;
+  font-size: 1.5rem;
+}
+.boxContentMoney > label{
+  display: flex;
+  align-items: left;
+  justify-content: left;
+  margin-left: 3.4rem;
+  font-size: 1.5rem;
+}
+.boxContentMoney > input{
+  margin-left: 16.5rem;
+  position: relative;
+  bottom: 7rem;
+}
+.boxContentMoney > button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -6rem;
+  margin-left: 9.5rem;
+}
+input, button{
+  margin-left: 4.5rem;
+  margin-bottom: 1rem;
+  width: 11rem;
+  border: none;
+  border-radius: 50px;
+  padding: 10px;
+  background-color: #000;
+  color: #FFF;
+  transition: ease all .8s;
+}
+button:hover{
+  cursor: pointer;
+  background-color: #fff;
+  color: #000;
+}
+span{
+  font-size: 1.5rem;
+  margin-top: -0.5rem;
+}
+.anoLuz{
+  background-image: url("https://images.squarespace-cdn.com/content/v1/5a78ab8490badee028bef0e9/1568935524292-TPSLMXHD9HE6PKN02YOG/ke17ZwdGBToddI8pDm48kPTrHXgsMrSIMwe6YW3w1AZ7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0k5fwC0WRNFJBIXiBeNI5fKTrY37saURwPBw8fO2esROAxn-RKSrlQamlL27g22X2A/Interstellar.jpg?format=1500w");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center bottom;
+}
+.dolarReal{
+  background-image: url("https://ichef.bbci.co.uk/news/640/cpsprodpb/82A2/production/_111124433_dolarreal.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.libraDolar{
+  background-image: url("https://i0.wp.com/terracoeconomico.com.br/wp-content/uploads/2018/09/27144585820_f16bc6f85c_z.jpg?resize=640%2C405&ssl=1");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: bottom left;
+}
+.celsius{
+  background-image: url("https://www.teclasap.com.br/wp-content/uploads/2014/03/fahrenheit-x-celsius.jpg");
+  background-position: center ;
+}

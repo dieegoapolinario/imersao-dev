@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Conversores</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class = "container">
+    <div class = anoLuz>
+      <div class = "title">Conversor de Anos-Luz</div>
+      <div class = "boxContent">
+        <label>Digite quantos Anos-luz</label>
+        <input type = "number" placeholder = "Ex: 000000" id = "numAnoLuz">
+        <button id = "btnAnoLuz">Converter para KM</button>
+      </div>
+      <span id = "resultAnoLuz"></span>
+    </div>
+    <div class = dolarReal>
+      <div class = "title">Conversor de Dolar para Real</div>
+      <div class = "boxContentMoney">
+        <label>Valor do Dolar</label>
+        <label>Valor à converter</label>
+        <input type = "number" placeholder = "Ex: 00.00" id = "valorDolar">
+        <input type = "number" placeholder = "Ex: 00.00" id = "valorParaConverter">
+        <button id = "btnDolarReal">Converter para Real</button>
+      </div>
+      <span id = "resultDolarReal"></span>
+    </div>
+    <div class = libraDolar>
+      <div class = "title">Conversor de Libra para Dolar</div>
+      <div class = "boxContentMoney">
+        <label>Valor da Libra</label>
+        <label>Valor à conveter</label>
+        <input type = "number" placeholder = "Ex: 00.00" id = "valorLibra">
+        <input type = "number" placeholder = "Ex: 00.00" id = "valorParaConverterLibra">
+        <button id = "btnLibraDolar">Converter para Dolar</button>
+      </div>
+      <span id = "resultLibraDolar"></span>
+    </div>
+    <div class = celsius>
+      <div class = "title">Conversor de Celsius para Fahrenheit</div>
+      <div class = "boxContent">
+        <label>Digite o valor em Celsius</label>
+        <input type = "number" placeholder = "Ex: 00" id = "numCelsius">
+        <button id = "btnCelsius">Converter para Fahrenheit</button>
+      </div>
+      <span id = "resultCelsius"></span>
+    </div>
+  </div> 
+  <script src="script.js"></script>
+</body>
+</html>
