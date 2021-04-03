@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@0;1&display=swap');
+body{
+  background-color: #03A9F4;
+  font-family: 'Open Sans', sans-serif;
+}
+section{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 500px;
+  margin-top: 100px;
+  background-color: #FFF;
+  padding: 15px;
+  border: 1px solid #000;
+  border-radius: 5px;
+  -webkit-box-shadow: 5px 5px 80px 8px rgba(0,0,0,0.99);
+  box-shadow: 5px 5px 80px 8px rgba(0,0,0,0.99);
+}
+section h1{
+  font-size: 20px;
+  text-align: center
+}
+h2{
+  text-align: center;
+}
+a{
+  text-decoration: none;
+  cursor: pointer;
+}
+a li{
+  margin-bottom: 15px;
+  border-radius: 20px;
+  font-weight: bold;
+  width: 250px;
+  padding: 5px;
+  color: #000;
+  transition: ease all 1.5s;
+}
+a li:hover{
+  background-color: #fff;
+}
+header{
+  background-image: url('https://allmanaofgames.files.wordpress.com/2013/01/judgment-default-hero.jpg');
+  background-size: cover;
+  max-height: 80px;
+  border-radius: 5px;
+}
+img{
+  width: 150px;
+  height: 150px;
+  border-radius: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  transform: translateY(-55%);
+  border: 8px solid #FFF;
+}
+div{
+  border: 1px solid #000;
+  background-color: #bac3d6;
+  border-radius: 5px;
+  padding: 15px
+}
