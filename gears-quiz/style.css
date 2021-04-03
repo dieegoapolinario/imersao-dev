@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Quicksand', sans-serif;
+}
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url('https://www.wasd.pt/wp-content/uploads/2014/01/Gears-of-War-3-Gameplay.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center top;
+}
+.container{
+  border: 3px solid #f00;
+  width: 20rem;
+  padding: 1rem;
+  margin: 0.7rem;
+  background-color: #000;
+  color: #FFF;
+  height: 95vh
+}
+.logo{
+  height: 13vh;
+  background: url(https://gearsofwar.com/static/gearsOfWar-full-white-c089e78ed6f16345e2bdddb6bb4edfc8.svg) center no-repeat;
+}
+.title{
+  font-size: 1.3rem;
+  font-weight: 700;
+}
+.square{
+  height: 30vh;
+  margin: 0.5rem 0;
+}
+img{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  height: 100%;
+}
+.description{
+  margin: 0.5rem 0;
+}
+input{
+  width: 100%;
+  padding: 0.3rem;
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin-bottom: 0.3rem;
+}
+button{
+  width: 100%;
+  padding: 0.5rem;
+  font-size: 1.2rem;
+  font-weight: 700;
+  transition: ease all .5s;
+}
+button:hover{
+  background-color: #f00;
+}
+#result{
+  height: 10vh;
+  margin-top: 0.5rem;
+  color: #FFF;
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
